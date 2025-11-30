@@ -272,6 +272,7 @@ header h1 {
 .remove-item-button {
     width: 10px;
     height: 10px;
+
 }
 
 .remove-item-button img {
@@ -282,6 +283,12 @@ header h1 {
     border-radius: 50%;
     padding: 2px;
     transition: border-color 0.3s ease;
+    cursor: pointer;
+}
+
+.remove-item-button img:hover {
+    border: var(--Rose-900) solid 1px;
+    fill: var(--Rose-900);
 }
 
 .remove-item-button img.active {
@@ -561,8 +568,13 @@ footer::after {
 }
 
 @keyframes sparkle {
-    0% { filter: brightness(1);}
-    100% { filter: brightness(1.7);}
+    0% {
+        filter: brightness(1);
+    }
+
+    100% {
+        filter: brightness(1.7);
+    }
 }
 
 .attribution a {
