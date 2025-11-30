@@ -368,6 +368,7 @@ header h1 {
     align-items: center;
     justify-content: center;
     background-color: hsla(0, 0%, 0%, 0.459);
+    z-index: 100;
 }
 
 .order-confirmation-box {
